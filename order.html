@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order | SecondSensation</title>
+    <link rel="shortcut icon" href="images/iconn.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/order.css?v=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<div class="container">
+    
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="images/kastok.png" width="195px"></a>
+    </div>
+    <nav>
+        <ul id="MenuItems">
+            <li><a style="color: black;" href="index.html">Home</a></li>
+            <li><a style="color: black;" href="products.html">Products</a></li>
+            <li><a style="color: black;" href="about.html">About</a></li>
+            <li><a style="color: black;" href="order.html">My Order</a></li>
+            <li><a style="color: black;" href="account.html">Account</a></li>
+        </ul>
+    </nav>
+    <img src="images/cart.png" width="30px" height="30px">
+    <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+ </div>
+ <!-- Sidebar -->
+
+ <div class="box-product">
+        <img src="images/product-1.jpg" alt="">
+    <div class="nama-barang">
+                <h1>
+                    ORDER  XQWR1
+                </h1>
+                <div class="spec-product">
+                    <h4>
+                        x3
+                    </h4>
+                </div>
+                <!-- <div class="rating">
+                    <h3>Give a Star</h3>
+                    <div class="rating-star">
+                        <input type="radio" name="html">
+                        <input type="radio" name="html">
+                        <input type="radio" name="html">
+                        <input type="radio" name="html">
+                        <input type="radio" name="html">
+                        <input type="radio" name="html">
+                        <input type="radio" name="html">
+                        <input type="radio" name="html">
+                        <input type="radio" name="html">
+                        <input type="radio" name="html">
+                    </div>
+                </div> -->
+			</div>
+    </div>
+    <div class="button">
+        <a href="tracking.html">Track Product &#8594;</a>
+    </div>
+    
+</div>
+
+
+<!------- Footer ------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/kastok.png">
+                <p>Our Purpose Is To Sustainably Make the Pleasure and
+                Benefits of Sports Accessible to the Many.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Contact us</h3>
+                <ul>
+                    <li>
+                        <p><i class="fa fa-whatsapp" style="background-color: white;color: black;border-radius: 5px;width: 15px;padding: 2px;"></i>  082246557488</p>
+                        <p><i class="fa fa-line" style="background-color: white;color: black;border-radius: 5px;width: 15px;padding: 2px;"></i>  @666btgh</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2022 - Sensasi Cool</p>
+    </div>
+</div>
+
+<!------- JS For Toggle Menu ------->
+   <script>
+       var MenuItems = document.getElementById("MenuItems");
+
+       MenuItems.style.maxHeight = "0px";
+
+       function menutoggle(){
+           if (MenuItems.style.maxHeight == "0px")
+                 {
+                  MenuItems.style.maxHeight = "200px";
+                 }
+           else
+                 {
+                    MenuItems.style.maxHeight = "0px";
+                 }
+       }
+   </script>
+
+
+</body>
+</html>

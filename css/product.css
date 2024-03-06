@@ -1,0 +1,51 @@
+.Category{
+  font-size: large;
+  color: #C39F40;
+  background-color: black;
+  margin: 0px;
+  padding: 0.5%;
+}
+
+.Category-item{
+  font-size: large;
+}
+
+.Category-button{
+  font-size: medium;
+  line-height: 10px;
+  padding-right: 15px;
+  color: white;
+}
+.Category .Category-button:hover{
+  background-color: #C39F40;
+}
+
+input[type=text] {
+  width: 140px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 590px;
+
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+color: black;
+opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+color: black;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+color: black;
+}
